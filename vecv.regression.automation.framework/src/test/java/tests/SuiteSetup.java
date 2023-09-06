@@ -1,11 +1,10 @@
 package tests;
 
+import browserFactory.DriverInit;
+import constants.FileConstant;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-
-import browserFactory.DriverInit;
-import constants.FileConstant;
 
 public class SuiteSetup {
 	

@@ -1,18 +1,16 @@
 package listeners;
 
-import java.util.ArrayList;
-import java.util.List;
-
+import com.aventstack.extentreports.Status;
+import logger.LOG;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-
-import com.aventstack.extentreports.Status;
-
-import logger.LOG;
 import reporter.ExtentManager;
 import reporter.ExtentTestManager;
 import utilities.DriverUtils;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class TestListener implements ITestListener {
 	public static boolean verifyElementsFail = false;

@@ -1,14 +1,13 @@
 package browserFactory;
 
-import java.io.File;
-import java.util.HashMap;
-
+import io.github.bonigarcia.wdm.WebDriverManager;
+import logger.LOG;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-import logger.LOG;
+import java.io.File;
+import java.util.HashMap;
 
 public class DriverInit {
 

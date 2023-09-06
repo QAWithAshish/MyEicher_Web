@@ -1,13 +1,11 @@
 package pageObjects;
 
+import logger.LOG;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
-
-import constants.FileConstant;
-import logger.LOG;
 
 public class LoginPage extends BasePage{
 

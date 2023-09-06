@@ -1,14 +1,12 @@
 package utilities;
 
-import java.time.Duration;
-
-import lombok.extern.java.Log;
+import logger.LOG;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.*;
-
-import logger.LOG;
 import reporter.ExtentTestManager;
+
+import java.time.Duration;
 
 public class DriverUtils {
     public static final int shortTimeOut = 5;

@@ -1,15 +1,14 @@
 package utilities;
 
+import logger.LOG;
+import org.apache.commons.lang3.RandomStringUtils;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.Properties;
-
-import org.apache.commons.lang3.RandomStringUtils;
-
-import logger.LOG;
 
 public class CommonUtils {
 
